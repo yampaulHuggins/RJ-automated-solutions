@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'template';
+  options: string[] = ['Home', 'Services', 'Contact']
+  page: string = 'Home';
+
+  selectOption(option: string) {
+    this.page = option
+  }
 }
