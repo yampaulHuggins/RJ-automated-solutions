@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Page } from './assets/models/models';
 
 @Component({
   selector: 'app-root',
@@ -6,12 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
   title = 'template';
-  options: string[] = ['Home', 'Services', 'Contact']
-  page: string = 'Home';
+  options: Page[] = [{  name: 'Home', path: '/home'}, {name: 'Services', path: '/services'}, { name: 'Contact', path: '/contact'}]
+  page: Page = { name: 'Home', path: '/home'};
 
-  selectOption(option: string) {
+  selectOption(option: Page) {
     this.page = option
   }
 }

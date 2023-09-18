@@ -13,13 +13,14 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { ContactComponent } from './main/contact/contact/contact.component';
 import { ServicesComponent } from './main/services/services/services.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    ServicesComponent
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,8 @@ import { ServicesComponent } from './main/services/services/services.component';
     MatButtonModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
