@@ -14,6 +14,7 @@ import {MatListModule} from '@angular/material/list';
 import { ContactComponent } from './main/contact/contact/contact.component';
 import { ServicesComponent } from './main/services/services/services.component';
 import { RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './main/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     ContactComponent,
     ServicesComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
