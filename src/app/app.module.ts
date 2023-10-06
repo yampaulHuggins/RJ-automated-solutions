@@ -15,6 +15,7 @@ import { ContactComponent } from './main/contact/contact/contact.component';
 import { ServicesComponent } from './main/services/services/services.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './main/page-not-found/page-not-found.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PageNotFoundComponent } from './main/page-not-found/page-not-found.comp
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
+    MatCardModule,
     RouterModule
   ],
   providers: [],
