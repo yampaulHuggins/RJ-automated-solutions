@@ -7,9 +7,9 @@ import { Page } from './assets/models/models';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'template';
-  options: Page[] = [{  name: 'Home', path: '/home'}, {name: 'Services', path: '/services'}, { name: 'Contact', path: '/contact'}]
-  page: Page = { name: 'Home', path: '/home'};
+  title = 'RJ Automated Solutions';
+  options: Page[] = [{  name: 'Inicio', path: '/home'}, {name: 'Servicios', path: '/services'}, { name: 'Contacto', path: '/contact'}]
+  page: Page = { name: 'Inicio', path: '/home'};
 
   selectOption(option: Page) {
     this.page = option

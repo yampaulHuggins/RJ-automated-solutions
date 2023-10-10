@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent {
+  cards: any[] = [{icon: 'work', title: 'System Architecture Design', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'},
+  {icon: 'work', title: 'Control Panel Design', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'},
+  {icon: 'work', title: 'Industrial Control Panel Fabrication', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'},
+  {icon: 'work', title: 'Installation & Commissioning', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'},
+  {icon: 'work', title: 'HMI & PLC Integration and Programming', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'},
+  {icon: 'work', title: 'Control System Upgrades', body: 'Nam pharetra sollicitudin euismod. Sed non dolor finibus, dapibus massa vel, consequat neque.'}]
+
+  ngOnInit(): void {
+
+  }
+
+
 
 }

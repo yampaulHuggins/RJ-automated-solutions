@@ -1,22 +1,22 @@
-<div class="h-screen bg-cover">
-  <div class="sm:h-1/2 sm:p-10 bg-opacity-50 bg-black">
+<div class="h-screen bg-cover lg:flex lg:flex-row lg:items-center">
+  <div class="sm:h-1/2 sm:p-10 bg-opacity-70 bg-black lg:w-1/2  lg:h-screen">
     <img src="assets/Logos/RJ.svg"/>
   </div>
-  <div class="sm:h-1/2 sm:p-5 bg-opacity-50 bg-black">
-    <mat-card appearance="outlined" class="bg-gray-200">
+  <div class="sm:h-1/2 sm:p-5 bg-opacity-70 bg-black lg:w-1/2 lg:h-screen lg:flex lg:flex-col lg:justify-center lg:pr-40 lg:pl-40 "  >
+    <mat-card appearance="outlined" class="bg-gray-600 lg:h-1/3">
       <mat-card-header>
         <mat-card-title>
           <h1 class="font-bold text-center">RJ AUTOMATED SOLUTIONS</h1>
         </mat-card-title>
-        <mat-card-subtitle><h4 class="text-center">Subtitle explanation for audience</h4></mat-card-subtitle>
+        <mat-card-subtitle><h4 class="sm:text-center lg:text-left">Subtitle explanation for audience</h4></mat-card-subtitle>
       </mat-card-header>
       <mat-card-content>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus nibh nisi, nec ullamcorper tellus iaculis a.
+        <p class="sm:text-center lg:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus nibh nisi, nec ullamcorper tellus iaculis a.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
       </mat-card-content>
-      <mat-card-footer class="p-5 flex flex-col gap-3 justify-center">
-        <button mat-raised-button type="button" color="primary" class="text-base mr-16 ml-16"><mat-icon>phone</mat-icon><mat-icon>mail</mat-icon>Contáctanos</button>
-        <button mat-raised-button type="button" color="primary" class="text-base mr-16 ml-16"><mat-icon>construction</mat-icon>Servicios</button>
+      <mat-card-footer class="sm:p-5 flex flex-col gap-4 justify-center">
+        <button [routerLink]="'/services'" mat-raised-button type="button" color="primary" class="text-base sm:mr-16 sm:ml-16 lg:mr-32 lg:ml-32"><mat-icon>construction</mat-icon>Servicios</button>
+        <button [routerLink]="'/contact'" mat-raised-button type="button" color="primary" class="text-base sm:mr-16 sm:ml-16 lg:mr-32 lg:ml-32"><mat-icon>phone</mat-icon><mat-icon>mail</mat-icon>Contáctanos</button>
       </mat-card-footer>
     </mat-card>
   </div>

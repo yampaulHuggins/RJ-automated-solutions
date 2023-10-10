@@ -1,1 +1,12 @@
-<p>services works!</p>
+<div class="flex flex-col">
+  <div class="h-fit p-10 bg-gray-500 text-gray-200">
+    <h1><strong>Servicios</strong></h1>
+    <p>En <strong>RJ Automated Solutions</strong>, realizamos trabajos de calidad <strong>innovando</strong> y <strong>creando</strong> nuevas ideas. </p>
+  </div>
+  <div class="h-fit flex lg:flex-row flex-wrap sm:p-14 lg:p-10 sm:gap-16 lg:gap-0">
+    <div class="lg:w-1/2 border border-gray-300 sm:p-5 rounded-md bg-gray-100 text-black flex flex-col" *ngFor="let card of cards">
+      <h3 class="self-center text-blue-400"><mat-icon>{{card.icon}}</mat-icon><p>{{card.title}}</p></h3>
+      <p>{{card.body}}</p>
+    </div>
+  </div>
+</div>
