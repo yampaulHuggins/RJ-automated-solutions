@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "homepage": "https://yampaulhuggins.github.io/RJ-automated-solutions",
+  "homepage": "https://yampaulhuggins.github.io/",
   "private": false,
   "dependencies": {
     "@angular/animations": "^16.2.0",
