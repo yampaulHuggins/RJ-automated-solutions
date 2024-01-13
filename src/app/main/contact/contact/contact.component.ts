@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 cards: any = [
-  {title: 'Correo Electrónico', body: 'jrios@rjautomated.com', icon: 'mail'},
-  {title: 'Teléfono', body: '787-439-3748', icon: 'phone'},
-  {title: 'Dirección Postal', body: 'HC 61 BOX 5493, Aguada PR 00602', icon: 'markunread_mailbox'}
+  {title: 'E-mail', body: 'jrios@rjautomated.com - José Ríos', icon: 'mail'},
+  {title: 'Phone', body: '787-439-3748 - José Ríos', icon: 'phone'},
+  {title: 'Postal Address', body: 'RJ Automated Solutions, HC 61 BOX 5493, Aguada PR 00602', icon: 'markunread_mailbox'}
 ];
 
 }

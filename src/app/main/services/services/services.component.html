@@ -1,15 +1,15 @@
 <div class="flex flex-col">
   <div class="h-fit p-10 bg-gray-500 text-gray-200">
-    <h1><strong>Servicios</strong></h1>
-    <p>En <strong>RJ Automated Solutions</strong>, realizamos trabajos de calidad <strong>innovando</strong> y <strong>creando</strong> nuevas ideas. </p>
+    <h1><strong>Services</strong></h1>
+    <p class="lg:text-lg">{{overview}}</p>
   </div>
-  <div class="h-fit flex lg:flex-row flex-wrap sm:p-10 lg:p-10 sm:gap-16 lg:gap-0">
-    <div class="lg:w-1/2 border border-gray-300 sm:p-5 rounded-md bg-gray-100 text-black flex flex-col" *ngFor="let card of cards">
-      <div class="self-center text-blue-400 flex flex-col justify-center items-center flex-nowrap">
+  <div class="h-fit flex lg:flex-col lg:content-center  flex-wrap gap-0 p-10 lg:flex-nowrap lg:p-10 sm:gap-16 lg:gap-8 ">
+    <div class="lg:w-3/4 lg:self-center border border-gray-300 sm:p-5 rounded-md bg-gray-100 text-black flex flex-col " *ngFor="let card of cards">
+      <div class="self-center text-blue-400 flex flex-col justify-center items-center flex-nowrap lg:text-lg">
         <mat-icon>{{card.icon}}</mat-icon>
         <p class="p-0 m-0"><strong>{{card.title}}</strong></p>
       </div>
-      <p class="text-center">{{card.body}}</p>
+      <p class="text-center lg:text-lg">{{card.body}}</p>
     </div>
   </div>
 </div>

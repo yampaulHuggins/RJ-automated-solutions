@@ -8,8 +8,8 @@ import { Page } from './assets/models/models';
 })
 export class AppComponent {
   title = 'RJ Automated Solutions';
-  options: Page[] = [{  name: 'Inicio', path: '/home'}, {name: 'Servicios', path: '/services'}, { name: 'Contacto', path: '/contact'}]
-  page: Page = { name: 'Inicio', path: '/home'};
+  options: Page[] = [{  name: 'Home', path: '/home'}, {name: 'Services', path: '/services'}, { name: 'Contact us', path: '/contact'}]
+  page: Page = { name: 'Home', path: '/home'};
 
   selectOption(option: Page) {
     this.page = option
